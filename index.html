@@ -26,17 +26,17 @@
         </a>
 
         <!-- Desktop Menu -->
-        <nav class="navigation">
+        <nav class="navigation" id="navigation">
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#pricing">Pricing</a></li>
           </ul>
         </nav>
 
         <!-- Mobile toggle button -->
-        <div class="menu-toggle">☰</div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
       </div>
     </header>
 
@@ -176,5 +176,120 @@
         </div>
       </div>
     </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <!-- Section Heading -->
+
+        <div class="section-heading">
+          <div class="section-tag">
+            <span class="tag-dot"></span>
+
+            <span class="tag-text"> Testimonials </span>
+          </div>
+
+          <h2>
+            Trusted by
+            <span>Early Users</span>
+          </h2>
+
+          <p>
+            Discover why early adopters trust AetherBand for secure and seamless
+            digital identity.
+          </p>
+        </div>
+
+        <div class="testimonial-wrapper">
+          <!-- LEFT -->
+
+          <div class="trust-panel">
+            <div class="trust-item">
+              <h3>4.9 ★★★★★</h3>
+
+              <p>Average user rating</p>
+            </div>
+
+            <div class="trust-item">
+              <h3>500+</h3>
+
+              <p>Early adopters</p>
+            </div>
+
+            <div class="trust-item">
+              <h3>99%</h3>
+
+              <p>Positive feedback</p>
+            </div>
+
+            <div class="trust-item">
+              <h3>256-bit</h3>
+
+              <p>Encrypted identity</p>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+
+          <div class="testimonial-list">
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+
+              <p>
+                “AetherBand completely replaced my office ID and access card.
+                Everything feels effortless.”
+              </p>
+
+              <div class="testimonial-user">
+                <div class="avatar">RS</div>
+
+                <div>
+                  <h4>Rohan Sharma</h4>
+
+                  <span>Software Engineer</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="stars">★★★★★</div>
+
+              <p>
+                “Fast authentication, premium design and an experience that
+                simply works.”
+              </p>
+
+              <div class="testimonial-user">
+                <div class="avatar">PM</div>
+
+                <div>
+                  <h4>Priya Mehta</h4>
+
+                  <span>Product Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Nav Script Toggle -->
+
+    <script>
+      const menu = document.getElementById("menu-toggle");
+      const nav = document.getElementById("navigation");
+
+      menu.onclick = () => {
+        nav.classList.toggle("active");
+
+        if (nav.classList.contains("active")) {
+          menu.innerHTML = "✕";
+        } else {
+          menu.innerHTML = "☰";
+        }
+      };
+    </script>
   </body>
 </html>

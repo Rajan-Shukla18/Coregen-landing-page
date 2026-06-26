@@ -1,99 +1,112 @@
-# AetherBand Landing Page
+# AetherBand – Smart Wearable Landing Page
 
-A modern, responsive landing page for **AetherBand**, a wearable device that enables users to carry their digital identity securely.
-
-Built as part of an internship assignment using only HTML and CSS with a focus on clean UI, responsiveness, and modern design principles.
+AetherBand is a modern, responsive landing page for a fictional smart wearable startup. It is designed as part of a Frontend Developer Internship task to showcase clean UI design, responsive layouts, and modern frontend development using only HTML and CSS.
 
 ---
 
-## Tech Stack
+## 🚀 Project Overview
+
+AetherBand introduces a futuristic smart wearable that replaces traditional cards and passwords with a secure digital identity. The landing page focuses on simplicity, modern aesthetics, and an intuitive user experience.
+
+---
+
+## ✨ Features
+
+- ✅ Responsive Glassmorphism Navigation Bar
+- ✅ Hero Section with Call-to-Action
+- ✅ Product Showcase
+- ✅ Feature Cards
+- ✅ Testimonials Section
+- ✅ Pricing Section
+- ✅ Contact Section Removed for Cleaner UX
+- ✅ Navbar Updated (Contact → Pricing)
+- ✅ Smooth Hover Animations
+- ✅ Fully Responsive Design
+- ✅ Clean & Organized CSS Structure
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+- CSS Grid
+- Flexbox
+- CSS Variables
 - Google Fonts (Poppins)
 
 ---
 
-## Completed Sections
+## 📱 Responsive Design
 
-### Glassmorphism Navigation Bar
+Optimized for:
 
-- Fixed glass-effect navbar
-- Responsive navigation layout
-- Smooth hover animations
-- Clean spacing and typography
-
-### Hero Section
-
-- Modern two-column responsive layout
-- Product showcase image
-- Animated floating smart band
-- Call-to-action button
-- Feature highlights
-- Responsive typography
-
-### Features Section
-
-- Responsive feature cards
-- Glassmorphism-inspired card design
-- Color-coded feature themes
-- Animated section badge
-- Clean typography
-- Mobile and tablet responsive layout
-- Consistent spacing and alignment
+- Desktop
+- Tablet
+- Mobile
 
 ---
 
-## Design Features
-
-- Responsive Design
-- Mobile First Layout
-- Modern Glassmorphism UI
-- CSS Grid & Flexbox
-- Smooth Hover Effects
-- Floating Product Animation
-- Reusable Components
-- Clean Code Structure
-- Organized CSS Sections
-
----
-
-## Project Structure
+## 📂 Project Structure
 
 ```
 AetherBand/
 │
 ├── index.html
 ├── style.css
-│
-└── assets/
-    └── images/
-        ├── logo.png
-        └── band.png
+├── assets/
+│   ├── logo.png
+│   ├── band.png
+│   └── images/
+└── README.md
 ```
 
 ---
 
-## Progress
+## 📄 Website Sections
 
-- ✅ Glass Navigation
-- ✅ Hero Section
-- ✅ Features Section
-- ⏳ Testimonials Section
-- ⏳ Contact Section
-- ⏳ Final Responsive Testing
-- ⏳ Performance & UI Polish
-
----
-
-## Current Status
-
-Approximately **50% Complete**
-
-The landing page currently includes the complete navigation, hero, and features sections with responsive layouts. Remaining work includes Testimonials, Contact, and final UI polish.
+- Navigation
+- Hero
+- Features
+- Testimonials
+- Pricing
+- Footer
 
 ---
 
-## Author
+## 🎨 Design Highlights
+
+- Modern Dark Theme
+- Glassmorphism UI
+- Neon Cyan Accent Colors
+- Responsive Layout
+- Smooth Hover Effects
+- Consistent Typography
+- Clean Spacing & Visual Hierarchy
+
+---
+
+## 🎯 Recent Updates
+
+- Added responsive Testimonials section.
+- Removed the Contact section to keep the landing page focused.
+- Replaced the **Contact** navigation link with **Pricing**.
+- Added a dedicated Pricing section.
+- Improved mobile responsiveness and layout consistency.
+- Cleaned and organized CSS for better maintainability.
+
+---
+
+## 📌 Author
 
 **Rajan Shukla**
+
+Frontend Developer | Learning Modern Web Development
+
+---
+
+## ⭐ Project Status
+
+🚧 In Progress
+
+The landing page is under active development. Future improvements include enhanced product animations, refined interactions, and final UI polish.
