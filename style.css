@@ -254,7 +254,7 @@ img {
 
 /* Hero Content */
 .hero-content {
-  max-width: 540px;
+  max-width: 420px;
 }
 
 .hero-badge {
@@ -1096,12 +1096,6 @@ img {
 
 }
 
-.nav-container{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  position : relative;
-}
 
 /* ========================================
    10. RESPONSIVE DESIGN (MOBILE & TABLET)
@@ -1152,9 +1146,11 @@ img {
   }
 
   .menu-toggle {
-    display: block;
-    margin-left:auto;
-    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: 0;
+    margin-right: .5rem;
   }
 
   .cta-btn {
