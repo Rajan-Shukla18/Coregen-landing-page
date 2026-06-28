@@ -1146,11 +1146,7 @@ img {
   }
 
   .menu-toggle {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-left: 0;
-    margin-right: .5rem;
+    display: block;
   }
 
   .cta-btn {
