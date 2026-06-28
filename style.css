@@ -1096,10 +1096,17 @@ img {
 
 }
 
+.nav-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position : relative;
+}
 
 /* ========================================
    10. RESPONSIVE DESIGN (MOBILE & TABLET)
    ======================================== */
+
 
 @media (max-width: 768px) {
 
@@ -1146,6 +1153,8 @@ img {
 
   .menu-toggle {
     display: block;
+    margin-left:auto;
+    z-index:1000;
   }
 
   .cta-btn {
@@ -1512,7 +1521,9 @@ img {
 .footer-bottom{
     margin-top:40px;
     text-align:center;
+    
 }
+
 
 }
 
