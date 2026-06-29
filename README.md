@@ -1,4 +1,4 @@
-# <img src="assets/images/logo.png" alt="AetherBand Logo" width="42"> AetherBand — Smart Digital Identity Landing Page
+# <img src="assets/images/logo.png" alt="AetherBand Logo" width="82"> AetherBand — Smart Digital Identity Landing Page
 
 > **Modern Frontend UI Project**  
 > A premium responsive product landing page for **AetherBand**, a fictional wearable device that enables secure digital identity, passwordless authentication, and enterprise access management.
@@ -41,10 +41,10 @@ The project emphasizes visual hierarchy, consistent spacing, glassmorphism effec
 
 
 ---
-
 ## 📁 Project Structure
 
-AetherBand/
+```text
+Aetherband-landing-page(Coregen)
 │
 ├── index.html
 ├── style.css
@@ -56,7 +56,7 @@ AetherBand/
         ├── band.png
         ├── personal.png
         ├── pro.png
-        ├── enterprise.png
+        └── enterprise.png
 ```
 
 ---
