@@ -1,234 +1,196 @@
-# AetherBand — Smart Digital Identity Wearable
+# <img src="assets/images/logo.png" alt="AetherBand Logo" width="42"> AetherBand — Smart Digital Identity Landing Page
 
-> **Frontend Web Development Project**  
-> A modern landing page showcasing **AetherBand**, a wearable smart band designed for secure digital identity, passwordless authentication, and enterprise access management.
-
----
-
-# 📌 Project Overview
-
-AetherBand is a fictional smart wearable product created to demonstrate modern frontend design principles.
-
-The landing page focuses on presenting the product through premium visuals, clean typography, responsive layouts, interactive UI elements, and modern CSS animations.
-
-The objective was to design a landing page that feels like an official Apple, Nothing, or Samsung product website while using only HTML and CSS.
+> **Modern Frontend UI Project**  
+> A premium responsive product landing page for **AetherBand**, a fictional wearable device that enables secure digital identity, passwordless authentication, and enterprise access management.
 
 ---
 
-# 🎯 Objectives
+## ✨ About the Project
 
-- Design a premium wearable product landing page
-- Practice semantic HTML5
-- Build responsive layouts with Flexbox & Grid
-- Create reusable UI components
-- Improve CSS architecture
-- Apply modern animations and transitions
-- Build portfolio-quality frontend project
+AetherBand is a concept product website built to practice modern frontend development using only **HTML5** and **CSS3**.
+
+The goal was to create a premium-looking landing page inspired by modern technology brands while maintaining clean code, responsive layouts, reusable components, and smooth user interactions.
+
+The project emphasizes visual hierarchy, consistent spacing, glassmorphism effects, and mobile-first responsiveness without relying on JavaScript frameworks.
 
 ---
 
-# 🛠 Tech Stack
+## 🎯 Project Goals
 
-| Technology    | Purpose                     |
-| ------------- | --------------------------- |
-| HTML5         | Semantic page structure     |
-| CSS3          | Styling & animations        |
-| Flexbox       | Component layouts           |
-| CSS Grid      | Pricing & Features sections |
-| Google Fonts  | Typography                  |
-| Font Awesome  | Icons                       |
-| CSS Variables | Design System               |
-| Media Queries | Responsive Design           |
+- Build a professional product landing page
+- Practice semantic HTML structure
+- Create responsive layouts for all devices
+- Improve CSS architecture and organization
+- Design reusable UI components
+- Maintain clean and scalable code
+- Develop a portfolio-ready frontend project
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Semantic structure and accessible page layout |
+| **CSS3** | Styling, animations, and responsive design |
+| **CSS Flexbox** | One-dimensional layouts and component alignment |
+| **CSS Grid** | Two-dimensional layouts for sections and cards |
+| **CSS Variables** | Centralized design system for colors, spacing, and typography |
+| **Media Queries** | Mobile-first responsive layouts across devices |
+| **Google Fonts** | Modern typography using the Poppins font family |
+
 
 ---
 
 ## 📁 Project Structure
 
-````text
 AetherBand/
 │
-├── index.html                 # Main HTML file
-├── styles.css                 # Complete styling and responsive design
-├── README.md                  # Project documentation
+├── index.html
+├── style.css
+├── README.md
 │
 └── assets/
     └── images/
-        ├── logo.png           # AetherBand logo
-        ├── hero-band.png      # Hero section smart band
-        ├── personal.png       # Personal plan band
-        ├── pro.png            # Professional plan band
-        ├── enterprise.png     # Enterprise plan band
+        ├── logo.png
+        ├── band.png
+        ├── personal.png
+        ├── pro.png
+        ├── enterprise.png
+```
 
 ---
 
-# 🧩 Sections Built
+## 📌 Website Sections
 
-## 1. Sticky Navigation
-
-- Brand logo
+### 🧭 Navigation
+- Fixed glassmorphism navbar
 - Smooth scrolling
 - Hover underline animation
-- Responsive mobile navigation
+- Mobile navigation menu
 
----
-
-## 2. Hero Section
-
-- Product headline
-- Animated smart band image
-- CTA buttons
+### 🚀 Hero
+- Product introduction
+- Animated wearable image
+- Primary CTA
 - Product highlights
-- Modern gradient typography
 
----
+### ⭐ Features
+- Responsive feature cards
+- Gradient accents
+- Glassmorphism UI
+- Hover interactions
 
-## 3. Features Section
-
-- Personal
-- Professional
-- Enterprise
-
-Feature cards include
-
-- Glassmorphism
-- Hover effects
-- Icons
-- Responsive layout
-
----
-
-## 4. Testimonials
-
+### 💬 Testimonials
 - Customer review cards
-- Rating stars
-- User avatars
-- Smooth hover animation
+- Trust statistics
+- Interactive card effects
 
----
+### 💳 Pricing
+- Three pricing plans
+- Product showcase
+- Featured plan highlight
+- Responsive pricing layout
 
-## 5. Pricing
-
-Three product variants
-
-- AetherBand Lite
-- AetherBand Pro
-- AetherBand Business
-
-Features include
-
-- Product images
-- Pricing cards
-- Hover effects
-- Popular badge
-- Responsive layout
-
----
-
-## 6. Footer
-
+### 📩 Footer
 - Brand information
-- Quick links
-- Company links
-- Legal links
+- Quick navigation links
 - Newsletter subscription
-- Copyright
+- Company & legal links
 
 ---
 
-# ✨ Features
+## 🌟 Key Features
 
 - Responsive Design
-- Modern UI
-- Glassmorphism
+- Modern UI/UX
+- Glassmorphism Effects
+- CSS Grid & Flexbox
+- CSS Variables Design System
 - Smooth Hover Animations
-- CSS Variables
 - Premium Typography
-- Interactive Pricing Cards
-- Newsletter Footer
-- Mobile Friendly
-- Semantic HTML
-- Clean Folder Structure
+- Reusable Components
+- Clean Code Structure
+- Mobile Optimized
 
 ---
 
-# 📱 Responsive Breakpoints
+## 📱 Responsive Design
 
-| Screen Size           | Layout          |
-| --------------------- | --------------- |
-| Desktop (>1024px)     | Full Layout     |
-| Tablet (768px–1024px) | Responsive Grid |
-| Mobile (<768px)       | Single Column   |
+The website is optimized for different screen sizes.
+
+| Device | Layout |
+|---------|--------|
+| Desktop | Full Layout |
+| Laptop | Optimized Layout |
+| Tablet | Responsive Grid |
+| Mobile | Single Column Layout |
 
 ---
 
-# 🚀 How to Run
+## 💡 What I Learned
+
+During this project I strengthened my understanding of:
+
+- Semantic HTML5
+- Responsive Web Design
+- Flexbox & CSS Grid
+- CSS Variables
+- Glassmorphism Design
+- Component-Based Styling
+- UI Consistency
+- Spacing & Typography Systems
+- Mobile-First Optimization
+- Organizing Maintainable CSS
+
+---
+
+## 🚀 Future Improvements
+
+- JavaScript Interactions
+- Dark / Light Theme
+- Scroll Reveal Animations
+- Better Accessibility
+- Performance Optimization
+- Contact Form Validation
+- Advanced Micro-interactions
+
+---
+
+## ⚙️ Getting Started
 
 Clone the repository
 
 ```bash
 git clone https://github.com/Rajan-Shukla18/Coregen-landing-page.git
-````
+```
 
-Open project
+Open the project
 
 ```bash
-cd AetherBand
+cd Coregen-landing-page
 ```
 
-Launch
+Run locally
 
-```
-Open index.html
-```
+Simply open **index.html**
 
-or
-
-```
-Run using VS Code Live Server
-```
+or use **VS Code Live Server**.
 
 ---
 
-# 💡 What I Learned
-
-- Responsive Web Design
-- CSS Grid
-- Flexbox Layouts
-- Design Systems
-- Glassmorphism UI
-- CSS Animations
-- Modern Product Landing Pages
-- Component-based CSS Structure
-- Image Optimization
-- UI Consistency
-
----
-
-# 🔮 Future Improvements
-
-- Dark / Light Mode
-- JavaScript Interactions
-- Authentication Demo
-- Product Configurator
-- Scroll Reveal Animations
-- API Integration
-- Accessibility Enhancements
-- Performance Optimization
-
----
-
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Rajan Shukla**
 
 Frontend Developer
 
-Built as a portfolio project to practice modern frontend development and responsive UI design.
+Designed and developed as part of my frontend learning journey to practice responsive layouts, modern UI design, and clean HTML/CSS architecture.
 
 ---
 
-# 📄 License
+## 📄 License
 
-Completed as part of a frontend development internship, showcasing modern UI/UX principles, responsive web design, and clean, maintainable code.
+This project was created for educational and portfolio purposes.
 
-AetherBand is a fictional product created for UI/UX demonstration.
+**AetherBand is a fictional product created solely for UI/UX demonstration.**
